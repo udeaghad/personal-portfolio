@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    width: auto;
+    height: 100px;
+    
+
+    background-color: rgb(68, 14, 14);
+    color: white;
+    font-size: medium;
+
+}
+
+.heading {
+    display: flex;
+    height: 100px;
+    justify-items: flex-end;
+    padding-left: 450px;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+   
+}
+
+.headerList:hover{
+    background: rgb(25, 25, 68);
+    height: 50px;
+}
+
+.mimic {
+    
+    color: white;
+    
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container {
+    height: 300px;
+    background: rgb(32, 32, 32);
+}
+
+.developer {
+    color: rgb(240, 10, 10);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.bigContainer {
+background-color: rgb(36, 36, 80);
+height: fit-content;
+}
+
+.projects {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 40px;    
+    padding-bottom: 50px;
+}
+
+img {
+    display: flex;    
+    width: 350px;
+    height: 350px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.contact {
+    height: 300px;
+    background: rgb(87, 77, 173);
+}
+
+.work {
+    padding-top: 50px;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+.coffee {
+    text-align: center; 
+    color: aliceblue;
+    font-style: italic;
+}
+
+.contactDetails {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(224, 223, 220);
+    font-size: 15px;
+    
+}
+
+.copyright {
+    text-align: end;
+}
